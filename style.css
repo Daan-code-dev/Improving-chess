@@ -8,12 +8,14 @@ height: auto;
 margin: 0 auto;
 text-align: center;
 min-width: 300px;
+max-width: 800px;
 margin-bottom: 5rem;
 }
 header div {
     width: 50%;
     height: auto;
     margin: 0 auto;
+    max-width: 800px;
     min-width: 300px;
 }
 h1 {
@@ -28,6 +30,7 @@ p {
 width: 75%;
 height: auto;
 min-width: 300px;
+max-width: 800px;
 margin: 3rem auto;
 }
 
