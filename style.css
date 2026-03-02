@@ -9,7 +9,14 @@ height: auto;
 margin: 0 auto;
 text-align: center;
 }
+div {
+    width: 50%;
+    height: auto;
+}
 h1 {
     font-size: 2rem;
     font-weight: bolder;
+}
+p {
+    font-size: 1.2rem
 }
