@@ -26,9 +26,9 @@ main {
 justify-content: space-around;
 gap: 1rem;
 }
-main div {
+.book {
     border: 2px solid black;
-width: 40%;
+width: 45%;
 height: auto;
 min-width: 200px;
 }
