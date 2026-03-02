@@ -20,3 +20,13 @@ h1 {
 p {
     font-size: 1.2rem
 }
+main {
+    display: flex;
+    flex-wrap: row wrap;
+justify-content: space-around;
+}
+main div {
+    border: 2px solid black;
+width: 30%;
+height: auto;
+}
