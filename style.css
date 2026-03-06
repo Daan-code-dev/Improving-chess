@@ -43,6 +43,12 @@ border-radius: 2rem;
 padding: 2rem;
 box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
 }
+
+.book:hover {
+transform: translateY(-3px);
+box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
 .button {
 margin: 10px auto;
 background-color: rgb(46, 125, 50);
