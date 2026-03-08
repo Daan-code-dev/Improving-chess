@@ -56,8 +56,8 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.08);
 }
 .book-div {
     display: flex;
-    justify-content: space-between;
     flex-wrap: nowrap;
+    gap: 8%;
 }
 .book-image {
 width: 20%;
