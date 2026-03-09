@@ -63,8 +63,12 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.08);
 width: 25%;
 }
 @media (max-width: 768px) {
+    .book {
+        width: 95%;  
+        padding: 1rem; 
+    }
     .book-div {
-        flex-direction: column; /* afbeelding boven tekst */
+        flex-direction: column;
         gap: 1rem;
     }
     .book-image {
