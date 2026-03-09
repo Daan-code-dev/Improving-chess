@@ -62,6 +62,17 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.08);
 .book-image {
 width: 25%;
 }
+@media (max-width: 768px) {
+    .book-div {
+        flex-direction: column; /* afbeelding boven tekst */
+        gap: 1rem;
+    }
+    .book-image {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 .button {
 margin: 10px auto;
 background-color: rgb(46, 125, 50);
