@@ -60,7 +60,7 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.08);
     gap: 35px;
 }
 .book-image {
-width: 25%;
+width: 30%;
 }
 @media (max-width: 768px) {
     .book {
