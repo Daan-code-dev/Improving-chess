@@ -110,7 +110,7 @@ img{
    width: 70%;
    text-align: center;
 }
-#explanation-id-1::before {
+#explanation-h3-1::before {
 content: "⚡";
 }
 
