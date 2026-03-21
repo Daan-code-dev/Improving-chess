@@ -111,27 +111,27 @@ img{
    text-align: center;
 }
 #explanation h3 {
-font-size: 1.3rem;
+font-size: 1.38crem;
 }
 
 #explanation-h3-1::before {
 content: "📘";
-margin-right: 0.5rem;
+margin-right: 0.4rem;
 }
 
 #explanation-h3-2::before {
 content: "⚡";
-margin-right: 0.5rem;
+margin-right: 0.4rem;
 }
 
 #explanation-h3-3::before {
 content: "📌";
-margin-right: 0.5rem;
+margin-right: 0.4rem;
 }
 
 #explanation-h3-4::before {
 content: "📝";
-margin-right: 0.5rem;
+margin-right: 0.4rem;
 }
 
 
