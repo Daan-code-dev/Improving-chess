@@ -110,15 +110,19 @@ img{
    width: 70%;
    text-align: center;
 }
+
 #explanation-h3-1::before {
 content: "📘";
 }
+
 #explanation-h3-2::before {
 content: "⚡";
 }
+
 #explanation-h3-3::before {
 content: "📌";
 }
+
 #explanation-h3-4::before {
 content: "📝";
 }
