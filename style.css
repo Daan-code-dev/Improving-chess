@@ -136,6 +136,9 @@ margin-right: 0.4rem;
 content: "📝";
 margin-right: 0.4rem;
 }
+ul {
+    text-align: left;
+}
 ul li::marker {
   font-size: 1.5em; 
 }
