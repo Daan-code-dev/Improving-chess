@@ -101,12 +101,12 @@ text-decoration: none;
 .button:hover {
  background-color: rgb(67,160,71);
 }
-img {
+img{
     max-width: 100%;
     height: auto;
 }
 #explanation {
-   margin: 10 auto; 
+   margin: 10px auto; 
    width: 70%;
 }
 
