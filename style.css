@@ -40,6 +40,9 @@ margin-bottom: 2rem;
 h3{
 font-size: 1.55rem;
 }
+li {
+    font-size: 2.5rem;
+}
 .book {
 width: 80%;
 height: auto;
