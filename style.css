@@ -110,6 +110,9 @@ img{
    width: 70%;
    text-align: center;
 }
+#explanation h3 {
+font-size: 1.3rem;
+}
 
 #explanation-h3-1::before {
 content: "📘";
@@ -130,5 +133,6 @@ margin-right: 0.5rem;
 content: "📝";
 margin-right: 0.5rem;
 }
+
 
 
