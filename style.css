@@ -108,12 +108,12 @@ img{
     max-width: 100%;
     height: auto;
 }
-#explanation {
+.explanation {
    margin: 10px auto; 
    width: 70%;
    text-align: left;
 }
-#explanation h3 {
+.explanation h3 {
 font-size: 1.38rem;
 }
 
