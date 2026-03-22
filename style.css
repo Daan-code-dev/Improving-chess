@@ -111,7 +111,7 @@ img{
 #explanation {
    margin: 10px auto; 
    width: 70%;
-   text-align: center;
+   text-align: left;
 }
 #explanation h3 {
 font-size: 1.38rem;
@@ -136,9 +136,7 @@ margin-right: 0.4rem;
 content: "📝";
 margin-right: 0.4rem;
 }
-ul {
-    text-align: left;
-}
+
 ul li::marker {
   font-size: 1.5em; 
 }
