@@ -2,7 +2,7 @@ body {
     background-color: #fff;
     font-family: Inter, sans-serif;
 }
-#logo {
+.logo {
      width: 20%;
     height: auto;
    max-width: 200px;
