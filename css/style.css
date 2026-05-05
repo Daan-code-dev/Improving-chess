@@ -145,8 +145,8 @@ margin-right: 0.4rem;
 ul li::marker {
   font-size: 1.5em; 
 }
-.book-image-4::before {
-    content: "♟️"
+span {
+    font-size: 50%;
 }
 
 
