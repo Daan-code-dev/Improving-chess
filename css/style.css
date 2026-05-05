@@ -41,6 +41,11 @@ margin-bottom: 2rem;
 h3{
 font-size: 1.55rem;
 }
+
+span {
+    font-size: 14rem;
+}
+
 li {
     font-size: 1.4rem;
 }
@@ -145,9 +150,6 @@ margin-right: 0.4rem;
 
 ul li::marker {
   font-size: 1.5em; 
-}
-span {
-    font-size: 14rem;
 }
 
 
