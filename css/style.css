@@ -55,8 +55,9 @@ li {
     font-size: 1rem;
 }
 .skip {
-    margin: 0 auto;
+    text-align: center;
 }
+
 .book {
 width: 85%;
 height: auto;
