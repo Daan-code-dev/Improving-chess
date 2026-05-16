@@ -55,7 +55,7 @@ li {
     font-size: 1rem;
 }
 .book {
-width: 80%;
+width: 90%;
 height: auto;
 min-width: 300px;
 max-width: 1000px;
@@ -75,7 +75,7 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.08);
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 35px;
+    gap: 30px;
 }
 .book-image {
 width: 30%;
