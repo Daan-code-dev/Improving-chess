@@ -49,6 +49,9 @@ span {
 li {
     font-size: 1.4rem;
 }
+ul {
+    margin-bottom: 10px;
+}
 .honest {
     color: rgb(230, 230, 230,);
     font-style: italic;
