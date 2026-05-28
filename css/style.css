@@ -16,7 +16,7 @@ margin: 0 auto;
 text-align: center;
 min-width: 260px;
 max-width: 900px;
-margin-bottom: 5rem;
+margin-bottom: 2rem;
 }
 
 header div {
@@ -25,10 +25,7 @@ header div {
     min-width: 260px;
     max-width: 600px;
 }
-main {
-    margin: 0 auto;
-    padding: 0;
-}
+
 h1 {
     font-size: 2.5rem;
     font-weight: bolder;
