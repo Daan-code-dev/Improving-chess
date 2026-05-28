@@ -25,7 +25,9 @@ header div {
     min-width: 260px;
     max-width: 600px;
 }
-
+.main {
+    margin: 10px auto;
+}
 h1 {
     font-size: 2.5rem;
     font-weight: bolder;
