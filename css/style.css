@@ -26,8 +26,8 @@ header div {
     max-width: 600px;
 }
 main {
-    margin: 0px auto;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 0;
 }
 h1 {
     font-size: 2.5rem;
