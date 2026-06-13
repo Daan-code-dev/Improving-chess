@@ -58,6 +58,17 @@ ul {
     font-style: italic;
     font-size: 1rem;
 }
+.author-box {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding: 10px 14px;
+  border-left: 3px solid #222;
+  background: #f7f7f7;
+  max-width: 600px;
+}
+
 .skip {
     text-align: center;
     margin: 0;
