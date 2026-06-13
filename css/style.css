@@ -130,7 +130,7 @@ img{
     height: auto;
 }
 .explanation {
-   margin: 10px auto; 
+   margin: 10px auto 20px auto; 
    width: 70%;
    text-align: left;
 }
