@@ -164,6 +164,26 @@ letter-spacing: 0.3px;
     background: #e5e7eb;
     color: #111827;
 }
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.policy-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.policy-links .iubenda-white,
+.policy-links .iubenda-noiframe,
+.policy-links .iubenda-embed {
+    margin: 0;
+}
 img{
     max-width: 100%;
     height: auto;
