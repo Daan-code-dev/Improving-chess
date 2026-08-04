@@ -1,3 +1,4 @@
 User-agent: *
+Allow: /
 
-Sitemap: https:/improving-chess/sitemap.xml
+Sitemap: https://improving-chess.com/sitemap.xml
