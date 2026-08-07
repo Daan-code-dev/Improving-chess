@@ -24,7 +24,7 @@ body {
 
 
 .nav-logo img {
-    width: 160px;
+    width: 120px;
     height: auto;
     display: block;
 }
@@ -60,9 +60,7 @@ body {
         gap: 0.8rem;
         padding: 10px 5%;
     }
-    .nav-logo {
-        width: 140px;
-    }
+    
 
 
     .nav-links {
