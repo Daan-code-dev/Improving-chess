@@ -36,48 +36,90 @@
     <main>
       <section class="explanation" id="fork">
         <h2>1. Fork</h2>
-        <p></p>
+        <p>A fork is when you attack 2 or multiple pieces at the same time with the same piece, so that you can capture one guaranteed piece. The knight fork is the most common one. 
+            On the diagram below, I put some demonstrative forks. In the top left, you see a knight which attacks the king, queen, and two rooks. Because none of 
+            the pieces can capture the knight, and the king is in check, the king has to move. After that, the knight has the choice between 2 rooks and a queen. 
+            Similarly, in the bottom right you see a pawn which is threatening two rooks. If one rook moves, the pawn can simply take the other rook. You can also often 
+            fork with the queen, because of its long range. Think of giving check, while at the same time, threatening a bishop. So, for future games, 
+            look out for moves where you can attack 2 pieces at the same time, and maybe you will be lucky!
+        </p>
         <img src="https://backscattering.de/web-boardimage/board.svg?fen=2q1k3/1r6/3N4/1r6/8/5r1r/6P1/8&arrows=Gd6e8,Gd6c8,Gd6b7,Gd6b5,Gg2h3,Gg2f3&coordinates=true" 
      alt="Chess diagram showing knight fork and pawn fork examples" 
      style="max-width:400px; display:block; margin:0 auto;">
       </section>
       <section class="explanation" id="pin">
         <h2>2. Pin</h2>
-        <p>TEKST HIER</p>
-        <iframe src="https://lichess.org/embed/analysis/standard/FEN_HIER?arrows=..." 
-                style="width:100%; max-width:500px; height:400px; display:block; margin:0 auto;" 
-                frameborder="0"></iframe>
+        <p>A pin is a long range piece (queen, bishop, rook) that attacks another piece, which cannot move, because there is a more valuable piece or king behind it. 
+            To explain it better, look at the diagram below. The black rook is attacked by the white bishop. Your natural instinct would be to move the rook, 
+            but then the king would be exposed, making it illegal to play. Similarly, the black queen is attacked by the white rook, but if the queen moves, the king is under attack. 
+            It is a good habbit that if you see for example a king and queen on the same line or diagonal, you immediately look for pins with your rook or bishop. And beware yourself, 
+            if you're king and queen are on the same line or diagonal, make sure your opponent doesn't have a pin.
+        </p>
+        <img src="https://backscattering.de/web-boardimage/board.svg?fen=4k3/3rq3/8/1B6/P7/8/8/4RK2&arrows=Ge1e8,Gb5e8&coordinates=true" 
+     alt="Chess diagram showing pins along the e-file and b5-e8 diagonal" 
+     style="max-width:400px; display:block; margin:0 auto;" 
+     loading="lazy">
       </section>
       <section class="explanation" id="skewer">
         <h2>3. Skewer</h2>
-        <p>TEKST HIER</p>
-        <iframe src="https://lichess.org/embed/analysis/standard/FEN_HIER?arrows=..." 
-                style="width:100%; max-width:500px; height:400px; display:block; margin:0 auto;" 
-                frameborder="0"></iframe>
+        <p>A skewer is basically the opposite of a pin. A long range piece attact 2 pieces along one line. The more valuable piece is in front, 
+          and when that piece moves, the piece behind it is captured. The diagram below shows two skewers. The black rook has to move, after which,  the black 
+          bishop is captured. Similarly, the black king needs to move, which results in the queen getting captured by the rook. You can spot these the same way 
+          you spot skewers: Once there are two pieces on the same line, there may be a possibilty for a skewer on the board.
+        </p>
+        <img src="https://backscattering.de/web-boardimage/board.svg?fen=6q1/pbp5/1p4k1/3r4/8/5BR1/8/8&arrows=Gf3b7,Gg3g8&coordinates=true"
+        alt="Chess diagram"
+        style="max-width:400px; display:block; margin:0 auto;"
+        loading="lazy">
       </section>
-      <section class="explanation" id="discovered-attack">
-        <h2>4. Discovered Attack</h2>
-        <p>TEKST HIER</p>
-        <iframe src="https://lichess.org/embed/analysis/standard/FEN_HIER?arrows=..." 
-                style="width:100%; max-width:500px; height:400px; display:block; margin:0 auto;" 
-                frameborder="0"></iframe>
+      <section class="explanation" id="Double attack">
+        <h2>4. Double Attack</h2>
+        <p>Double attack are incredibly powerfull in chess. A fork is a form of a double attack, but a fork is so common that I thought it 
+          deserved its own section. A double attack can happen in a variety of ways; Forks, discovered double attack, discovered check and 
+          attack and checkmate threat. I will, except for the fork, explain each of them here below: </p>
+          <div class="three-diagrams">
+          <div class="diagram">
+            <h3>Discovered double attack</h3>
+            <p>Here you see a discovered doube attack. The pawn moves to f5, attacking the rook, and at the same time, the bishop attacks the queen. 
+              This is quite difficult to find in a real game, but keep an eye on moves that attacks a piece, while freeing another piece.
+            </p>
+           <img src="https://backscattering.de/web-boardimage/board.svg?fen=8/6bk/4pp2/6pp/4R3/7P/6P1/Q1K5&arrows=Gg7a1,Gf6f5&coordinates=true"
+ alt="Chess diagram"
+ style="max-width:400px; display:block; margin:0 auto;"
+ loading="lazy">
+          </div>
+          <div class="diagram">
+            <h3>Discovored check</h3>
+            A discovered check is part of an discovered double attack, but it's so powerful, I decided to explain it on its own. In the diagram below, 
+            the knight jumped from e5 to c6, with a check. Black has to deal with a check, and white can capture the queen. The reason this is so powerful is 
+            because black has to deal with the check. He can't throw some sneaky in between move, or start an attack of his own. To see this in games, keep on the lookout 
+            for checks in general, as there are often only a few checks per move. 
+            <img src="https://backscattering.de/web-boardimage/board.svg?fen=rnbqkb1r/pppp1ppp/2N2n2/8/8/8/PPPPQPPP/RNB1KBNR&arrows=Ge2e8,Ge5c6,c6d8&coordinates=true"
+        alt="Chess diagram"
+        style="max-width:400px; display:block; margin:0 auto;"
+        loading="lazy">
+          </div>
+          <div class="diagram">
+
+          </div>
+          </div>
       </section>
       <section class="explanation" id="double-attack">
-        <h2>5. Double Attack</h2>
+        <h2>5. Double Check</h2>
         <p>TEKST HIER</p>
         <iframe src="https://lichess.org/embed/analysis/standard/FEN_HIER?arrows=..." 
                 style="width:100%; max-width:500px; height:400px; display:block; margin:0 auto;" 
                 frameborder="0"></iframe>
       </section>
       <section class="explanation" id="discovered-check">
-        <h2>6. Discovered Check</h2>
+        <h2>6. Deflection</h2>
         <p>TEKST HIER</p>
         <iframe src="https://lichess.org/embed/analysis/standard/FEN_HIER?arrows=..." 
                 style="width:100%; max-width:500px; height:400px; display:block; margin:0 auto;" 
                 frameborder="0"></iframe>
       </section>
       <section class="explanation" id="double-check">
-        <h2>7. Double Check</h2>
+        <h2>7. Decoy</h2>
         <p>TEKST HIER</p>
         <iframe src="https://lichess.org/embed/analysis/standard/FEN_HIER?arrows=..." 
                 style="width:100%; max-width:500px; height:400px; display:block; margin:0 auto;" 
@@ -115,8 +157,8 @@
     </main>
     <footer>
       <div class="policy-links">
-        <a href="https://www.iubenda.com/privacy-policy/89669700" class="iubenda-white iubenda-noiframe iubenda-embed" title="Privacy Policy">Privacy Policy</a>
-        <a href="https://www.iubenda.com/privacy-policy/89669700/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed" title="Cookie Policy">Cookie Policy</a>
+        <a href="https://www.iubenda.com/privacy-policy/89669700" class="iubenda-white iubenda-noiframe iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+  <a href="https://www.iubenda.com/privacy-policy/89669700/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
       </div>
     </footer>
     <!-- Kopieer je cookie banner + GA script hier van een andere pagina -->
