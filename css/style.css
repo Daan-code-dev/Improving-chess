@@ -152,6 +152,11 @@ ul {
 .skip:focus {
     left: 10px;
 }
+.skip-to-explanation {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
 
 .book {
 width: 85%;
