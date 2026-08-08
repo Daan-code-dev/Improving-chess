@@ -285,7 +285,6 @@ footer {
     margin-bottom: 1.5rem;
 }
 
-
 footer p {
     font-size: 0.9rem;
     color: #555;
@@ -354,4 +353,14 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+.nav-links a:focus-visible,
+.hub-card:focus-visible,
+.button:focus-visible,
+.footer-links a:focus-visible,
+.iubenda-white:focus-visible,
+.iubenda-noiframe:focus-visible,
+.iubenda-embed:focus-visible {
+    outline: 3px solid #222;
+    outline-offset: 3px;
 }
