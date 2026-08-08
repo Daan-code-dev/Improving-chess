@@ -359,6 +359,8 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     outline: 3px solid #222;
     outline-offset: 3px;
 }
-.diagram {
-    width: 70%;
+.sub-section {
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
 }
