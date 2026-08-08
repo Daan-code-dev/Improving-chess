@@ -349,11 +349,6 @@ color: inherit;
 transform: translateY(-3px);
 box-shadow: 0 6px 14px rgba(0,0,0,0.1);
 }
-.three-diagrams {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 .nav-links a:focus-visible,
 .hub-card:focus-visible,
 .button:focus-visible,
@@ -363,4 +358,7 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
 .iubenda-embed:focus-visible {
     outline: 3px solid #222;
     outline-offset: 3px;
+}
+.diagram {
+    width: 70%;
 }
