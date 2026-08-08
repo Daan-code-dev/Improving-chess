@@ -138,8 +138,19 @@ ul {
 }
 
 .skip {
-    text-align: center;
-    margin: 0;
+    position: absolute;
+    left: -9999px;
+    top: 10px;
+    z-index: 9999;
+    padding: 10px 15px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.skip:focus {
+    left: 10px;
 }
 
 .book {
