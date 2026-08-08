@@ -235,7 +235,7 @@ letter-spacing: 0.3px;
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 600;
-    border: 1px solid #d1d5db;
+    border: 1px solid #555;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
