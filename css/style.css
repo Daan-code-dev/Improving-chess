@@ -121,6 +121,9 @@ li {
 ul {
     margin-bottom: 10px;
 }
+video {
+    margin: 0 auto;
+}
 .honest {
     color: #555;
     font-style: italic;
