@@ -369,7 +369,6 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     margin: 10px auto;
 }
 
-/* Fix Iubenda brand badge */
 #iubenda-cs-banner .iubenda-cs-brand-badge {
     display: inline-flex !important;
     width: auto !important;
