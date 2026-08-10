@@ -368,9 +368,8 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     text-align: center;
     margin: 10px auto;
 }
-/* Iubenda banner fix */
 #iubenda-cs-banner.iubenda-cs-fix-height {
-    height: 100% !important;
+    height: auto !important;
 }
 
 #iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-container {
