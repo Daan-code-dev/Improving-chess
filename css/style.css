@@ -368,24 +368,14 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     text-align: center;
     margin: 10px auto;
 }
-/* Fix Iubenda cookie banner */
-#iubenda-cs-banner {
-    height: auto !important;
-}
-
-#iubenda-cs-banner .iubenda-cs-container {
-    height: auto !important;
-    max-height: none !important;
-    position: relative !important;
-    top: auto !important;
-}
-
-#iubenda-cs-banner .iubenda-cs-content {
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-container,
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-content,
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-rationale {
     height: auto !important;
     max-height: 90vh !important;
 }
 
-#iubenda-cs-banner .iubenda-cs-rationale {
-    height: auto !important;
-    max-height: none !important;
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-container {
+    position: relative !important;
+    top: auto !important;
 }
