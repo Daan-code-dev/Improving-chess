@@ -369,14 +369,14 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     margin: 10px auto;
 }
 
-#iubenda-cs-banner .iubenda-cs-brand-badge {
-    display: inline-flex !important;
-    width: auto !important;
+/* Fix Iubenda cookie banner height */
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-container,
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-content,
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-rationale {
     height: auto !important;
-    max-width: max-content !important;
-    max-height: max-content !important;
-    padding: 6px 34px 6px 10px !important;
-    margin: 16px !important;
-    box-sizing: border-box !important;
-    font-size: 14px !important;
+    max-height: 90vh !important;
+}
+
+#iubenda-cs-banner .iubenda-cs-content {
+    height: auto !important;
 }
