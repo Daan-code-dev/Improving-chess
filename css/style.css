@@ -368,14 +368,24 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     text-align: center;
     margin: 10px auto;
 }
-#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-container,
-#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-content,
-#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-rationale {
+/* Iubenda banner fix */
+#iubenda-cs-banner.iubenda-cs-fix-height {
+    height: 100% !important;
+}
+
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-container {
+    height: auto !important;
+    max-height: 90vh !important;
+    position: relative !important;
+    top: auto !important;
+}
+
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-content {
     height: auto !important;
     max-height: 90vh !important;
 }
 
-#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-container {
-    position: relative !important;
-    top: auto !important;
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-rationale {
+    height: auto !important;
+    max-height: 90vh !important;
 }
