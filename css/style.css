@@ -373,11 +373,14 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     position: relative !important;
     top: auto !important;
     height: auto !important;
-    max-height: none !important;
+    max-height: 90vh !important;
 }
 
-#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-content,
-#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-rationale {
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-content {
     height: auto !important;
     max-height: 90vh !important;
+}
+
+#iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-rationale {
+    height: auto !important;
 }
