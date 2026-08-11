@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script type="text/javascript" src="https://embeds.iubenda.com/widgets/ee811011-56fa-4985-88fa-4d4228ab8fe6.js"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TF8BCPG3YD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TF8BCPG3YD');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to Solve Chess Puzzles Faster</title>
@@ -196,56 +206,6 @@ puzzles, look for checks, captures and attacks, and you will be more accurate an
   })(window, document);
   </script>
     </footer>
-<div id="b" style="position:fixed;bottom:0;left:0;right:0;background:#111;color:#fff;padding:12px;display:flex;justify-content:space-between;align-items:center;z-index:9999;font-family:Arial">
-      <span style="font-size:13px">Cookies for analytics</span>
-      <div>
-        <button id="r" style="background:#555;color:#fff;border:2px solid #1b1b1b;padding:8px 12px;margin-right:6px;border-radius:5px">Reject</button>
-        <button id="a" style="background:#2e7d32;color:#fff;border:2px solid #1b1b1b;padding:8px 12px;border-radius:5px">Accept</button>
-      </div>
-    </div>
-    <script>
-    const ID = "G-TF8BCPG3YD";
-
-    const g = () => localStorage.getItem("c");
-    const s = v => localStorage.setItem("c", v);
-    const h = () => document.getElementById("b")?.remove();
-    const ok = () => g() === "1";
-
-    function loadGA() {
-      if (!ok()) return;
-
-      const script = document.createElement("script");
-      script.src = "https://www.googletagmanager.com/gtag/js?id=" + ID;
-      script.async = true;
-      document.head.appendChild(script);
-
-      script.onload = () => {
-        window.dataLayer = window.dataLayer || [];
-        window.gtag = function () { dataLayer.push(arguments); };
-        gtag("js", new Date());
-        gtag("config", ID);
-      };
-    }
-
-    (function () {
-      if (g()) {
-        h();
-        if (ok()) loadGA();
-        return;
-      }
-
-      document.getElementById("a").onclick = () => {
-        s("1");
-        h();
-        loadGA();
-      };
-
-      document.getElementById("r").onclick = () => {
-        s("0");
-        h();
-      };
-    })();
-    </script>
 
   </body>
 </html>
