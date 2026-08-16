@@ -371,4 +371,22 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     text-align: center;
     margin: 10px auto;
 }
+.toc-box {
+  background: rgb(245,245,235);
+  border-radius: 2rem;
+  padding: 1.5rem 2rem;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+.toc-box h2 {
+  margin-top: 0;
+}
+.toc-box ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+.toc-box li {
+  margin: 0.5rem 0;
+}
 
