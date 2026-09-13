@@ -10,14 +10,19 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    toggle.setAttribute('aria-expanded', toggle.getAttribute('aria-expanded') || 'true');
-    list.classList.remove('is-collapsed');
-    icon.textContent = '−';
+    const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+    if (isExpanded) {
+      list.classList.remove('is-collapsed');
+      icon.textContent = '−';
+    } else {
+      list.classList.add('is-collapsed');
+      icon.textContent = '+';
+    }
 
     toggle.addEventListener('click', function () {
-      const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+      const isExpandedNow = toggle.getAttribute('aria-expanded') === 'true';
 
-      if (isExpanded) {
+      if (isExpandedNow) {
         toggle.setAttribute('aria-expanded', 'false');
         list.classList.add('is-collapsed');
         icon.textContent = '+';
