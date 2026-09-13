@@ -10,11 +10,22 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
+    toggle.setAttribute('aria-expanded', toggle.getAttribute('aria-expanded') || 'true');
+    list.classList.remove('is-collapsed');
+    icon.textContent = '−';
+
     toggle.addEventListener('click', function () {
-      const willOpen = toggle.getAttribute('aria-expanded') === 'false';
-      toggle.setAttribute('aria-expanded', String(willOpen));
-      list.classList.toggle('is-collapsed', !willOpen);
-      icon.textContent = willOpen ? '−' : '+';
+      const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+
+      if (isExpanded) {
+        toggle.setAttribute('aria-expanded', 'false');
+        list.classList.add('is-collapsed');
+        icon.textContent = '+';
+      } else {
+        toggle.setAttribute('aria-expanded', 'true');
+        list.classList.remove('is-collapsed');
+        icon.textContent = '−';
+      }
     });
   });
 });

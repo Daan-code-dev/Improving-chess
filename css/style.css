@@ -376,10 +376,12 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   padding: 0.75rem 1rem;
-  max-width: min(440px, 100%);
-  margin: 0 0 1rem auto;
+  width: 70%;
+  max-width: 620px;
+  margin: 10px auto 20px auto;
   font-family: "Times New Roman", serif;
   color: #000;
+  box-sizing: border-box;
 }
 
 .toc-box .toc-head {
