@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 90px;
+}
+
 body {
     background-color: #fff;
     font-family: Inter, sans-serif;
@@ -371,6 +375,15 @@ box-shadow: 0 6px 14px rgba(0,0,0,0.1);
     text-align: center;
     margin: 10px auto;
 }
+
+section[id],
+article[id],
+div[id],
+h2[id],
+h3[id] {
+    scroll-margin-top: 90px;
+}
+
 .toc-box {
   background: #fff;
   border-top: 1px solid #000;
